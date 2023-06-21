@@ -1,6 +1,6 @@
 {
     "builds": [{
-        "src": "money_splitter/wsgi.py",
+        "src": "project_name/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
